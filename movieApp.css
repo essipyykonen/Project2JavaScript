@@ -1,0 +1,134 @@
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #070707;
+    color: #fcc504;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background: #232423;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Logo styling */
+#header-logo {
+    max-height: 150px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 20px; 
+    float: left;
+}
+
+/* Heading styling */
+header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: left;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+#select-and-search {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* Section styling */
+section {
+    margin: 24px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#theater-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 8px;
+}
+
+#theater-select:hover {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Movie info section */
+#movie-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 24px;
+    padding: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.movie-card {
+    background: #232423;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 16px;
+    text-align: center;
+}
+
+.movie-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.movie-card h3 {
+    font-size: 19px;
+    margin: 8px 0;
+    color: #fcc504;
+}
+
+.movie-card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #movie-info {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        font-size: 24px;
+    }
+
+    #theater-select {
+        width: 100%;
+    }
+}
