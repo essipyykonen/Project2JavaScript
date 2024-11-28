@@ -5,5 +5,5 @@ Description: This application is suppposed to be a place to see in each Finnkino
 Evaluation: I'm hoping, once again, that the application is satisfactory. I'd say it could be evaluated as good (20 points) or maybe even very good (25 points). I tried my best to make sure that all the requirements are fullfilled with this application.
 
 Links to Github and Netlify:
-Github: 
-Netlify: 
+Github: https://github.com/essipyykonen/Project2JavaScript
+Netlify: https://finnkino-film-hub.netlify.app
